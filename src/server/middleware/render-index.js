@@ -38,7 +38,7 @@ export default function renderIndex(html, css, assetMap) {
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
-    <title>Spoke</title>
+    <title>Texter</title>
     ${externalLinks}
     <style>
       /* CSS declarations go here */
@@ -60,7 +60,7 @@ export default function renderIndex(html, css, assetMap) {
     </style>
     <style data-aphrodite>${css.content}</style>
     ${rollbarScript}
-    <link rel="icon" href="https://s3-us-west-1.amazonaws.com/spoke-public/spoke_logo.svg">
+    <link rel="icon" href="https://d3n8a8pro7vhmx.cloudfront.net/miamidems/sites/1/favicon_images/original/MDDP_Favicon.png?1372273763">
   </head>
   <body>
     <div id="mount">${html}</div>

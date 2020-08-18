@@ -105,7 +105,7 @@ class Home extends React.Component {
     return (
       <div>
         <div className={css(styles.header)}>
-          Spoke is a new way to run campaigns using text messaging.
+          Texter ~ run campaigns using text messaging.
         </div>
         <div>
           <a
@@ -126,7 +126,7 @@ class Home extends React.Component {
       <div className={css(styles.container)}>
         <div className={css(styles.logoDiv)}>
           <img
-            src="https://s3-us-west-1.amazonaws.com/spoke-public/spoke_logo.svg"
+            src="https://mobilizeamerica.imgix.net/uploads/organization/Democrats%20%282%29_20180507205358060455.jpg"
             className={css(styles.logoImg)}
           />
         </div>

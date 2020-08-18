@@ -316,7 +316,6 @@ export class CampaignTable extends React.Component {
     return campaigns.length === 0 ? (
       <div>
         <Empty title="No campaigns" icon={<SpeakerNotesIcon />} />
-        <h1>this is my modif</h1>
       </div>
     ) : (
       <div style={{ position: "relative" }}>
