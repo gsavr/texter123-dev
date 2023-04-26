@@ -33,6 +33,12 @@ const styles = StyleSheet.create({
   },
   link_dark_bg: {
     ...theme.text.link_dark_bg
+  },
+  sig: {
+    marginTop: "48px",
+    marginBottom: "-48px",
+    alignSelf: "flex-end",
+    fontSize: "11px"
   }
 });
 
@@ -116,6 +122,9 @@ class Home extends React.Component {
           >
             Login and get started
           </a>
+        </div>
+        <div className={css(styles.sig)}>
+          Customized for Miami Dade Democratic Party by Giorgio Savron
         </div>
       </div>
     );
