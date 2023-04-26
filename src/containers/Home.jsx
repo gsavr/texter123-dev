@@ -123,7 +123,7 @@ class Home extends React.Component {
             Login and get started
           </a>
         </div>
-        <div className={css(styles.sig)}>
+        <div className={css(styles.sig)} style={{ padding: "10px" }}>
           Customized for Miami Dade Democratic Party by Giorgio Savron
         </div>
       </div>
