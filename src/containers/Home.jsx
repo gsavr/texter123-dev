@@ -124,7 +124,7 @@ class Home extends React.Component {
           </a>
         </div>
         <div className={css(styles.sig)} style={{ padding: "10px" }}>
-          Customized for Miami Dade Democratic Party by Giorgio Savron
+          Customized for the Miami-Dade Democratic Party by Giorgio Savron
         </div>
       </div>
     );
